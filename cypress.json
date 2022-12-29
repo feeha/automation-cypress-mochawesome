@@ -1,0 +1,15 @@
+{
+    "baseUrl": "URL",
+    "projectId": "gmbxm9",
+    "recordKey": "your key",
+    "reporter": "cypress-mochawesome-reporter",
+    "chromeWebSecurity": false,
+    "screenshotOnRunFailure": true,
+    "exprimentalStudio": true,
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "custom-title",
+        "embeddedScreenshots": true
+    }
+}

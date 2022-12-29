@@ -1,0 +1,10 @@
+{
+    "credentials": {
+        "ClientId": "ABC",
+        "username": "xyz",
+        "password": "123"
+    },
+    "configuration": {
+        "waitTime": 30000
+    }
+}

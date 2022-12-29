@@ -1,0 +1,23 @@
+{
+  "name": "AutomationByModule",
+  "version": "1.0.0",
+  "description": "\"\",",
+  "main": "index.js",
+  "scripts": {
+    "test-cases": "npx cypress run",
+    "cypress-report": "npx cypress run --record --key 9225283d-589a-462d-a34a-8d866124df58",
+    "open": "npx cypress open",
+    "cy:run": "cypress run",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "delete:reports": "rm -r cypress/results/* || true",
+    "prereport": "npm run delete:reports",
+    "mochawesome:merge": "npx mochawesome-merge \"cypress/results/mochawesome*.json\" > mochawesome.json && npx marge mochawesome.json"
+  },
+  "author": "Muzdalfa",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-localstorage-commands": "^1.7.0",
+    "cypress-mochawesome-reporter": "^3.1.0"
+  }
+}
